@@ -1,4 +1,4 @@
-FROM node:latets as build
+FROM node:latest as build
 WORKDIR /app
 ADD package*.json ./
 RUN npm ci
