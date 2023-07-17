@@ -10,7 +10,14 @@
 - выставление данных в git config для интеграции с гитом
 - action на уведомления в телеграмм, в секретах указаны токен бота и chat id куда приходят уведомления. В аргументах указаны текст уведомления - уникальный номер рабочего процесса.
 
-![]()
+![](https://github.com/Morody/React/blob/master/img/1.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/2.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/3.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/4.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/5.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/6.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/7.png?raw=true)
+![](https://github.com/Morody/React/blob/master/img/8.png?raw=true)
 ## Dockerfile
 Реализована `multi-stage` сборка
 
