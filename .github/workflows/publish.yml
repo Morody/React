@@ -17,3 +17,14 @@ jobs:
           file: Dockerfile
           push: false
           tags: user/app:latest
+      - name: "Edit config"
+        run: git config --global user.emal "adel-ufa@mail.ru" && git config --global user.name "Morody"
+      - name: "Version patch"
+        run: npm version 0.1.GITHUB_RUN_ID
+      - name: "telegram Notifications"
+        uses: "appleboy/telegram-action@master"
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          args: New version 0.1.${{ github.run_id }} build
+ 
