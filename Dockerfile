@@ -7,5 +7,3 @@ RUN npm run build --prod
 
 FROM node:18
 COPY --from=build /app/build .
-RUN npm install -g serve
-CMD ["cd .."]
